@@ -9,12 +9,10 @@ body {
   display: flex;
   flex-flow: column;
   height: 100%;
-	
 }
 
 .box .row {
-	flex-grow:1;
-	
+  /*border: 1px dotted grey;*/
 }
 
 .border_box, .center_borders{
@@ -93,69 +91,3 @@ width: 5%; background: #0E6D95;
 }
 
 
-
-.skills, .resumeAboutMe {
-
-	display:block;
-	background-color: #D4EEF9;
-	/*border-color:aqua;*/
-	float:center;
-	width:auto;
-	height: auto;
-	/*max-width: 256px;*/
-	margin-left: 10px;
-	margin-right: 10px;
-	min-width:256px;
-	flex-grow: 1;
-}
-
-.resumeAboutMe {
-width:75%;
-min-width:256px;
-	flex-grow: 1
-}
-
-.resumeAboutMe li {
-	margin-bottom:25px;
-}
-.resumeAboutMe p {
-	margin-bottom:5px;
-	margin-top:5px;
-}
-
-.contactInfo{
-	height:auto;
-	widht:100%;
-	color: #0E6D95;
-	padding:2px;
-	margin:2px;
-	font-weight:bold;
-}
-
-.wilsonDesc{
-	display:block;
-	background-color: #D4EEF9;
-	/*border-color:aqua;*/
-	float:center;
-	width:50%;
-	height: auto;
-	/*max-width: 256px;*/
-	margin-left: 10px;
-	margin-right: 10px;
-	min-width:256px;
-	flex-grow: 1;
-	padding: 10px;
-	border-bottom: 4px solid #E27429;
-	border-top: 4px solid #E27429;
-}
-
-.wilsonDesc p {
-	text-align: center;
-}
-
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
