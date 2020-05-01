@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	font-weight:bold;
+	font-size:16pt;
+	color: #E27429;
+	border-bottom:3px solid #E27429;
+	text-align:center;
+	/*background-color:#F9E3D4;*/
+	background-color: white;
+	/*border-left: 1px solid #E27429 ;
+		border-right: 1px solid #E27429 ;*/
+	padding-top: 10px;
+}
+
+h2{
+	color: #0E6D95;
+	font-weight:normal;
+}
+
+h3{
+	color: #0E6D95;
+	margin:2px;
+	font-weight:normal;
+	font-style:italic;
+	font-size:10pt;
+}
+
+
+ul, p, h4 {
+	height:auto;
+	color: #0E6D95;
+	font-weight:bold;
+}
+li {
+	margin-bottom:7px;
+	margin-top:7px;
+}
+
+b {
+	font-style:italic;
+	/*text-decoration: underline;*/
+
+}
+
+h4 {
+	font-size:16pt;
+}
+
+.resumeAboutMe {
+width:75%;
+min-width:256px;
+	flex-grow: 1
+}
+
+.resumeAboutMe li {
+	margin-bottom:25px;
+}
+.resumeAboutMe p {
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+.contactInfo{
+	height:auto;
+	widht:100%;
+	color: #0E6D95;
+	padding:2px;
+	margin:2px;
+	font-weight:bold;
+}
